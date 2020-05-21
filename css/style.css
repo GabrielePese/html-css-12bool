@@ -1,0 +1,25 @@
+[class*="col-"]{
+  border: 1px solid black;
+  text-align: center;
+}
+
+header .container, section .container{
+  background-color: pink;
+}
+header *{
+  height: 100px;
+}
+
+section {
+  height:200px;
+  line-height: 200px;
+}
+
+#nested{
+  margin: 2px;
+  background-color: red;
+}
+
+#nested [class*="col-"]{
+  border: 1px white solid;
+}
